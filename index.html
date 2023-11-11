@@ -9,6 +9,9 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 </head>
 
 <body class="is-preload">
@@ -31,43 +34,40 @@
 				<ul>
 					<li><a href="#intro">Intro</a></li>
 					<li><a href="#work">Work</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<!--<li><a href="#elements">Elements</a></li>-->
+					<li><a href="#elements">Elements</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		<!-- Main -->
+		<!-------------------------------------------------- Main -------------------------------------------------->
 		<div id="main">
 			<!-- Intro -->
 			<article id="intro">
 				<h2 class="major">Intro</h2>
-				<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+				<span class="image main" id="profile-image-container">
+					<img id="profile-image" src="images/profile-image.jpg" alt="" />
+				</span>
 				<p>
-					Hello, my name is Samuel, a software developer with a passion for computers and problem solving.
+					Hello! My name is Samuel, a software developer with a passion for computers and problem solving.
+					I love working with tech, thinking of creative solutions, but most of all, cooperating with a team
+					towards the end of a seemingly insurmountable project.
 				</p>
 				<p>
-					I love working with tech, thinking of creative solutions, but most of all, cooperating with a team
-					towards the end of a seemingly insurmountable project. When I was 6, I would spend hours
-					disassembling and reassembling an old hand vacuum with a screwdriver because I've always had an
+					When I was 6, I would spend hours disassembling and reassembling an old hand vacuum with a
+					screwdriver because I've always had an
 					innate desire to break things down to their base components and figure out how they worked together.
 					This desire has translated directly to my programming and learning style because a journey of a
 					thousand miles begins with a single step.
 				</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent
-					taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-					libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut
-					ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor.
-					Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique
-					senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus.
-					Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 			</article>
 
-			<!-- Work -->
+
+			<!------------------------------------------------ Work ------------------------------------------------>
 			<article id="work">
 				<h2 class="major">Work</h2>
-				<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+				<span class="image main"><img class="devicon" src="images/pic02.jpg" alt="" /></span>
 				<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.
 					Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer
 					sollicitudin mauris nec lorem luctus ultrices.</p>
@@ -78,18 +78,142 @@
 					tempus.</p>
 			</article>
 
-			<!-- About -->
-			<article id="about">
-				<h2 class="major">About</h2>
-				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-				<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
-					eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-					lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-					fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-					dolor sit amet.</p>
+			<!----------------------------------------------- Skills ----------------------------------------------->
+			<article id="skills">
+				<h2 class="major">Skills</h2>
+				<h3>Languages</h3>
+				<section class="skills-section">
+					<section>
+						<i class="devicon devicon-javascript-plain"></i>
+						<p class="skill-name">Javascript</p>
+					</section>
+					<section>
+						<i class="devicon devicon-python-plain"></i>
+						<p class="skill-name">Python</p>
+					</section>
+					<section>
+						<i class="devicon devicon-typescript-plain"></i>
+						<p class="skill-name">TypeScript</p>
+					</section>
+					<section>
+						<i class="devicon devicon-html5-plain"></i>
+						<p class="skill-name">HTML</p>
+					</section>
+					<section>
+						<i class="devicon devicon-css3-plain"></i>
+						<p class="skill-name">CSS</p>
+					</section>
+				</section>
+				<h3>Frameworks</h3>
+				<section class="skills-section">
+					<section>
+						<i class="devicon devicon-react-original"></i>
+
+						<p class="skill-name">React</p>
+					</section>
+					<section>
+						<i class="devicon devicon-express-original"></i>
+						<p class="skill-name">Express.js</p>
+					</section>
+					<section>
+						<i class="devicon devicon-flask-original"></i>
+						<p class="skill-name">Flask</p>
+					</section>
+				</section>
+				<h3>Libraries</h3>
+				<section class="skills-section">
+					<section>
+						<i class="devicon devicon-redux-original"></i>
+						<p class="skill-name">Redux</p>
+					</section>
+					<section>
+						<i class="devicon devicon-sequelize-plain"></i>
+
+						<p class="skill-name">Sequelize</p>
+					</section>
+					<section>
+						<i class="devicon devicon-sqlalchemy-plain"></i>
+						<p class="skill-name">SQLAlchemy</p>
+					</section>
+					<section>
+						<i class="devicon devicon-socketio-original"></i>
+						<p class="skill-name">Socket.io</p>
+					</section>
+				</section>
+				<h3>Databases</h3>
+				<section class="skills-section">
+					<section>
+						<i class="devicon devicon-postgresql-plain"></i>
+						<p class="skill-name">PostgreSQL</p>
+					</section>
+					<section>
+						<i class="devicon devicon-mysql-plain"></i>
+						<p class="skill-name">MySQL</p>
+					</section>
+					<section>
+						<i class="devicon devicon-sqlite-plain"></i>
+						<p class="skill-name">SQLite</p>
+					</section>
+				</section>
+				<h3>Tools</h3>
+				<section class="skills-section">
+					<section>
+						<i class="devicon devicon-git-plain"></i>
+						<p class="skill-name">Git</p>
+					</section>
+					<section>
+						<i class="devicon devicon-github-original"></i>
+						<p class="skill-name">GitHub</p>
+					</section>
+					<section>
+						<i class="devicon devicon-nodejs-plain"></i>
+						<p class="skill-name">Node.js</p>
+					</section>
+					<section>
+						<i class="devicon devicon-npm-original-wordmark"></i>
+						<p class="skill-name">NPM</p>
+					</section>
+				</section>
+				<section class="skills-section">
+					<section>
+						<i class="devicon devicon-heroku-original"></i>
+						<p class="skill-name">Heroku</p>
+					</section>
+					<section>
+						<i class="devicon devicon-vscode-plain"></i>
+						<p class="skill-name">VSCode</p>
+					</section>
+					<section>
+						<i class="devicon devicon-docker-plain"></i>
+						<p class="skill-name">Docker</p>
+					</section>
+					<section>
+						<i class="devicon devicon-ubuntu-plain"></i>
+						<p class="skill-name">Ubuntu</p>
+					</section>
+				</section>
+				<h3>Other</h3>
+				<section class="skills-section">
+					<section>
+						<i class="devicon devicon-amazonwebservices-original"></i>
+						<p class="skill-name">AWS</p>
+					</section>
+					<section>
+						<i class="devicon devicon-canva-original"></i>
+						<p class="skill-name">Canva</p>
+					</section>
+					<section>
+						<i class="devicon devicon-figma-plain"></i>
+						<p class="skill-name">Figma</p>
+					</section>
+					<section>
+						<i class="devicon devicon-wordpress-plain"></i>
+						<p class="skill-name">Wordpress</p>
+					</section>
+				</section>
 			</article>
 
-			<!-- Contact -->
+			<!---------------------------------------------- Contact ---------------------------------------------->
 			<article id="contact">
 				<h2 class="major">Contact</h2>
 				<form method="post" action="#">
@@ -120,7 +244,7 @@
 				</ul>
 			</article>
 
-			<!-- Elements -->
+			<!---------------------------------------------- Elements ---------------------------------------------->
 			<article id="elements">
 				<h2 class="major">Elements</h2>
 
@@ -374,7 +498,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 		<footer id="footer">
-			<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			<a href="https://www.github.com/irelius">
+				<i class="footer-icon fab fa-github"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/sbkihongbae/">
+				<i class="footer-icon fab fa-linkedin"></i>
+			</a>
+			<a href="https://wellfound.com/u/kihong-bae-1">
+				<i class="footer-icon fab fa-angellist"></i>
+			</a>
 		</footer>
 
 	</div>
